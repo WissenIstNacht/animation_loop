@@ -4,13 +4,14 @@ class AnimationLoop {
   num _lastTimeStamp = 0;
   num _animation_interval;
 
-  bool is_running = true;
+  bool is_running = false;
 
   AnimationLoop(num executionRate) {
     _animation_interval = 1000 / executionRate;
   }
 
   void run(void Function() update) async {
+    is_running = true;
     while (is_running) {
       final delta = await window.animationFrame;
       final diff = delta - _lastTimeStamp;
