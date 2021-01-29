@@ -1,7 +1,6 @@
-A library for Dart developers.
+A library for web projects in Dart.
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+This library contains a looping mechanism that allows to execute a method at a certain rate.
 
 ## Usage
 
@@ -20,8 +19,4 @@ main() {
 }
 ```
 
-## Features and bugs
-
-Please file feature requests and bugs at the [issue tracker][tracker].
-
-[tracker]: http://example.com/issues/replaceme
+Another typical usage example is a game loop.
