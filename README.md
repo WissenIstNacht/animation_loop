@@ -1,3 +1,5 @@
+# Animation Loop
+
 A library for web projects in Dart.
 
 This library contains a looping mechanism that allows to execute a method at a certain rate.
